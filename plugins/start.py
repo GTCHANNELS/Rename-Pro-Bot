@@ -19,12 +19,12 @@ async def start(client,message):
 
 ☞ Then Wait Till The Process Get Completed!
 
-☞ Maintained By : @ChVivekTomar
+☞ Maintained By : @MadMax10x
 
-**☞ Want To Buy Owr Premium Rename Bot With Custom Caption Support Contact Me On @ChVivekTomar**
+**☞ Want To Buy Owr Premium Rename Bot With Custom Caption Support Contact Me On @MadMax10x**
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support Channel" ,url="https://t.me/Official_Error404") ]  ]))
+	 [[ InlineKeyboardButton("Support Channel" ,url="https://t.me/Network10xOfficial") ]  ]))
 
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
